@@ -1,0 +1,51 @@
+
+#navbar{
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+  
+}
+#option >a{
+    /* display: flex; */
+    justify-content: space-between;
+    margin: auto;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+img{
+    height: 700px;
+    width: 100%;
+}
+
+#poster{
+    height: 300px;
+    width: 380px;
+}
+#movies{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+#box{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+select{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+}
+
